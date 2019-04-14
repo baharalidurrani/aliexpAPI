@@ -18,7 +18,7 @@ async function crawl() {
     // document.getElementsByTagName("input").minPrice.value
     // document.getElementsByTagName("input").maxPrice.value
     // document.getElementsByClassName("detail-description")[0].innerHTML
-
+    //ssh
     const dataPromise = await page.evaluate(() => {
         return Promise.resolve({
             // discountPrice: document.getElementById("j-sku-discount-price").innerHTML,
